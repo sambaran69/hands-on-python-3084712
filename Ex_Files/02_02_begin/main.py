@@ -2,11 +2,15 @@ greet = "Hello World"
 extened_grt = "Hello World, " + "this is a long string"
 
 name = "John"
+another_name = "Johnny"
 
 intrupution = f"Hello {name}"
 
 greet_format = "Hello {}"
 
-formatted = greet_format.format(name)
+formatted = greet_format.format(another_name)
 
 print(intrupution, formatted)
+print(formatted.upper())
+print(formatted.lower())
+print(formatted.replace("Johnny", "Peter"))
